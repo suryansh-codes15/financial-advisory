@@ -76,7 +76,7 @@ const GoalFlows = ({
                 },
             };
 
-            const res = await fetch('http://localhost:3000/api/goal-planning', {
+            const res = await fetch('http://localhost:3002/api/goal-planning', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload),

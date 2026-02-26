@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
+    "vercel-build": "cd frontend && npm install && npm run build",
     "test": "jest"
   },
   "keywords": [],
@@ -19,6 +20,7 @@
   "dependencies": {
     "@google/genai": "^1.42.0",
     "@huggingface/inference": "^4.13.13",
+    "@vercel/postgres": "^0.10.0",
     "better-sqlite3": "^12.6.2",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
